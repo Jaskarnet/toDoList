@@ -1,0 +1,128 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#main {
+    margin: 0 auto;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+
+#header {
+    height: 30%;
+    background-color: aqua;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.list-border-wrap {
+    background: linear-gradient(to bottom, aqua, darkblue);
+    padding: 1rem;
+}
+
+#list {
+    height: 60%;
+    background: linear-gradient(to bottom, rgb(156, 255, 255), #282896);
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+#to-do {
+    padding: 1rem;
+    color: white;
+    height:10%;
+    background-color: darkblue;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.add {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 1rem;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.add:focus  {
+    width: 100%;
+}
+
+.elementL, .elementLC {
+    width: 100%;
+    height: 10%;
+    padding: 1rem;
+    border-bottom: 1px darkblue solid;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elementLC {
+    color: rgba(255, 255, 255, 0.52);
+    text-decoration: line-through;
+}
+
+.content {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.hasiok {
+    height: 90%;
+    padding-left: 1rem;
+    cursor: pointer;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
